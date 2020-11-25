@@ -11,7 +11,7 @@ score = 0
 conn = sqlite3.connect("MCQDB")
 c = conn.cursor()
 
-'''
+
 c.execute("""CREATE TABLE MCQDB(
             Question text,
             option1 text,
@@ -20,7 +20,13 @@ c.execute("""CREATE TABLE MCQDB(
             option4 text,
             crtoption integer)
             """)
-'''
+
+c.execute("""INSERT INTO MCQDB VALUES ("Neon","Ne","Nn","No","An",1)""")
+c.execute("""INSERT INTO MCQDB VALUES ("Argon","Ar","Ag","Ao","Am",1)""")
+c.execute("""INSERT INTO MCQDB VALUES ("Galium","Gm","Ge","Ga","Gl",3)""")
+c.execute("""INSERT INTO MCQDB VALUES ("Ceasium","Cm","Cs","Ca","Cem",2)""")
+c.execute("""INSERT INTO MCQDB VALUES ("Chlorine","C","Cl","Cr","Cn",1)""")
+
 
 
 def chgquestions():
