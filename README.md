@@ -86,10 +86,6 @@ Please ensure your pull requests are well-documented and include relevant test c
 - Support for different question types
 - Export/import functionality for quiz data
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Author
 
 Sahai Jordi Alan A
